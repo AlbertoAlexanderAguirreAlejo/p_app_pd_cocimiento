@@ -1,6 +1,6 @@
-import 'package:app_pd_cocimiento/core/theme/app_theme.dart';
-import 'package:app_pd_cocimiento/core/utils/date_formatter.dart';
-import 'package:app_pd_cocimiento/core/utils/message_toast.dart';
+import 'package:app_pd_cocimiento/core/shared/theme/app_theme.dart';
+import 'package:app_pd_cocimiento/core/shared/utils/date_formatter.dart';
+import 'package:app_pd_cocimiento/core/shared/utils/message_toast.dart';
 import 'package:app_pd_cocimiento/features/mantenimiento/providers/mantenimiento_provider.dart';
 import 'package:app_pd_cocimiento/widgets/custom_appbar_widget.dart';
 import 'package:app_pd_cocimiento/widgets/custom_icon_button_widget.dart';

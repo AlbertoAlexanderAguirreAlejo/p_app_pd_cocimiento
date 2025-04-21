@@ -1,13 +1,13 @@
-import 'package:app_pd_cocimiento/core/config/app_config.dart';
-import 'package:app_pd_cocimiento/core/endpoints/auth_endpoints.dart';
-import 'package:app_pd_cocimiento/core/models/auth/login_response.dart';
-import 'package:app_pd_cocimiento/data/clients/api_client_auth.dart';
+import 'package:app_pd_cocimiento/core/infrastructure/config/app_config.dart';
+import 'package:app_pd_cocimiento/core/infrastructure/endpoints/auth_endpoints.dart';
+import 'package:app_pd_cocimiento/domain/models/auth/login_response.dart';
+import 'package:app_pd_cocimiento/data/clients/auth_client.dart';
 
 class AuthService {
-  final ApiClientAuth _client;
+  final AuthClient _client;
 
   AuthService({String? baseUrl})
-      : _client = ApiClientAuth(
+      : _client = AuthClient(
           baseUrl: baseUrl ?? AuthEndpoints.baseUrl,
           defaultQueryParameters: {'env': AppConfig().env},
         );

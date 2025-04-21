@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:app_pd_cocimiento/core/constants/app_constants.dart';
+import 'package:app_pd_cocimiento/core/shared/constants/app_constants.dart';
 
 class CustomItemCardWidget extends StatelessWidget {
   /// Título que se mostrará en la cabecera.

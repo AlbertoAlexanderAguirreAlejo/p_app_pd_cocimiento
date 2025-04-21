@@ -1,9 +1,9 @@
-import 'package:app_pd_cocimiento/core/constants/app_constants.dart';
-import 'package:app_pd_cocimiento/data/repositories/con_pd_agua_repository.dart';
-import 'package:app_pd_cocimiento/data/repositories/con_pd_nivel_repository.dart';
+import 'package:app_pd_cocimiento/core/shared/constants/app_constants.dart';
+import 'package:app_pd_cocimiento/domain/repositories/con_pd_agua_repository.dart';
+import 'package:app_pd_cocimiento/domain/repositories/con_pd_nivel_repository.dart';
 import 'package:flutter/material.dart';
-import 'package:app_pd_cocimiento/data/repositories/con_pd_det_repository.dart';
-import 'package:app_pd_cocimiento/core/preferences/app_preferences.dart';
+import 'package:app_pd_cocimiento/domain/repositories/con_pd_det_repository.dart';
+import 'package:app_pd_cocimiento/core/infrastructure/preferences/app_preferences.dart';
 
 class HomeProvider extends ChangeNotifier {
   final ConPdDetRepository _conPdDetRepository;

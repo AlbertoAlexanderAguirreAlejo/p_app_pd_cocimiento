@@ -1,8 +1,8 @@
-import 'package:app_pd_cocimiento/core/models/db/actividad.dart';
-import 'package:app_pd_cocimiento/core/models/db/recipiente.dart';
-import 'package:app_pd_cocimiento/core/models/db/tipo_masa.dart';
-import 'package:app_pd_cocimiento/core/models/db/con_pd_det.dart';
-import 'package:app_pd_cocimiento/core/utils/message_toast.dart';
+import 'package:app_pd_cocimiento/domain/models/db/actividad.dart';
+import 'package:app_pd_cocimiento/domain/models/db/recipiente.dart';
+import 'package:app_pd_cocimiento/domain/models/db/tipo_masa.dart';
+import 'package:app_pd_cocimiento/domain/models/db/con_pd_det.dart';
+import 'package:app_pd_cocimiento/core/shared/utils/message_toast.dart';
 import 'package:app_pd_cocimiento/features/actividades_tachos/providers/actividades_tachos_provider.dart';
 import 'package:app_pd_cocimiento/features/actividades_tachos/providers/actividades_tachos_registro_provider.dart';
 import 'package:app_pd_cocimiento/widgets/custom_button_widget.dart';

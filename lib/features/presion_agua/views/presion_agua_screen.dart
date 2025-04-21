@@ -1,5 +1,5 @@
-import 'package:app_pd_cocimiento/core/models/app/vista.dart';
-import 'package:app_pd_cocimiento/core/theme/app_theme.dart';
+import 'package:app_pd_cocimiento/domain/models/app/vista.dart';
+import 'package:app_pd_cocimiento/core/shared/theme/app_theme.dart';
 import 'package:app_pd_cocimiento/features/presion_agua/providers/presion_agua_provider.dart';
 import 'package:app_pd_cocimiento/features/presion_agua/views/pa_columna_screen.dart';
 import 'package:app_pd_cocimiento/features/presion_agua/views/pa_piscina_screen.dart';

@@ -1,6 +1,6 @@
 import 'package:app_pd_cocimiento/data/services/update_service.dart';
-import 'package:app_pd_cocimiento/core/theme/app_theme.dart';
-import 'package:app_pd_cocimiento/core/utils/custom_alert.dart';
+import 'package:app_pd_cocimiento/core/shared/theme/app_theme.dart';
+import 'package:app_pd_cocimiento/core/shared/utils/custom_alert.dart';
 import 'package:app_pd_cocimiento/features/auth/providers/auth_provider.dart';
 import 'package:app_pd_cocimiento/features/auth/widgets/login_form.dart';
 import 'package:app_pd_cocimiento/widgets/loading_indicator.dart';

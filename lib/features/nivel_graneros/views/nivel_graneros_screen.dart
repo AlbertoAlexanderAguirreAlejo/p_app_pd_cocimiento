@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:app_pd_cocimiento/features/nivel_graneros/providers/nivel_graneros_provider.dart';
 import 'package:app_pd_cocimiento/widgets/custom_tank_level_card_widget_slider.dart';
-import 'package:app_pd_cocimiento/core/models/db/recipiente.dart';
-import 'package:app_pd_cocimiento/core/models/db/con_pd_nivel.dart';
+import 'package:app_pd_cocimiento/domain/models/db/recipiente.dart';
+import 'package:app_pd_cocimiento/domain/models/db/con_pd_nivel.dart';
 import 'package:app_pd_cocimiento/widgets/custom_scaffold_widget.dart';
-import 'package:app_pd_cocimiento/core/theme/app_theme.dart';
+import 'package:app_pd_cocimiento/core/shared/theme/app_theme.dart';
 
 class NivelGranerosScreen extends StatefulWidget {
   const NivelGranerosScreen({super.key});

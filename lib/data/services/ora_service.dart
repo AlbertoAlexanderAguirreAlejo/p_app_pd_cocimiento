@@ -1,18 +1,18 @@
-import 'package:app_pd_cocimiento/core/config/app_config.dart';
-import 'package:app_pd_cocimiento/core/endpoints/ora_endpoints.dart';
-import 'package:app_pd_cocimiento/core/models/ora/actvidad_ora_model.dart';
-import 'package:app_pd_cocimiento/core/models/ora/api_response_ora.dart';
-import 'package:app_pd_cocimiento/core/models/ora/masa_act_rec_ora_model.dart';
-import 'package:app_pd_cocimiento/core/models/ora/material_ora_model.dart';
-import 'package:app_pd_cocimiento/core/models/ora/recipiente_ora_model.dart';
-import 'package:app_pd_cocimiento/core/models/ora/tipo_masa_ora_model.dart';
-import '../clients/api_client_ora.dart';
+import 'package:app_pd_cocimiento/core/infrastructure/config/app_config.dart';
+import 'package:app_pd_cocimiento/core/infrastructure/endpoints/ora_endpoints.dart';
+import 'package:app_pd_cocimiento/domain/models/ora/actvidad_ora_model.dart';
+import 'package:app_pd_cocimiento/domain/models/ora/api_response_ora.dart';
+import 'package:app_pd_cocimiento/domain/models/ora/masa_act_rec_ora_model.dart';
+import 'package:app_pd_cocimiento/domain/models/ora/material_ora_model.dart';
+import 'package:app_pd_cocimiento/domain/models/ora/recipiente_ora_model.dart';
+import 'package:app_pd_cocimiento/domain/models/ora/tipo_masa_ora_model.dart';
+import '../clients/ora_client.dart';
 
 class OraService {
-  final ApiClientOra _client;
+  final OraClient _client;
 
   OraService({String? baseUrl})
-      : _client = ApiClientOra(
+      : _client = OraClient(
           baseUrl: baseUrl ?? OraEndpoints.baseUrl,
           defaultQueryParameters: {'env': AppConfig().env},
         );

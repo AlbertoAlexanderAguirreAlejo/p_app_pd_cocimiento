@@ -1,9 +1,9 @@
-import 'package:app_pd_cocimiento/core/constants/turnos.dart';
-import 'package:app_pd_cocimiento/core/models/app/turno.dart';
-import 'package:app_pd_cocimiento/core/preferences/app_preferences.dart';
-import 'package:app_pd_cocimiento/core/theme/app_theme.dart';
-import 'package:app_pd_cocimiento/core/utils/date_formatter.dart';
-import 'package:app_pd_cocimiento/core/utils/message_toast.dart';
+import 'package:app_pd_cocimiento/core/shared/constants/turnos.dart';
+import 'package:app_pd_cocimiento/domain/models/app/turno.dart';
+import 'package:app_pd_cocimiento/core/infrastructure/preferences/app_preferences.dart';
+import 'package:app_pd_cocimiento/core/shared/theme/app_theme.dart';
+import 'package:app_pd_cocimiento/core/shared/utils/date_formatter.dart';
+import 'package:app_pd_cocimiento/core/shared/utils/message_toast.dart';
 import 'package:app_pd_cocimiento/app.dart';
 import 'package:app_pd_cocimiento/widgets/custom_restricted_time_picker_widget.dart';
 import 'package:flutter/material.dart';

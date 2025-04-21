@@ -1,4 +1,4 @@
-import 'package:app_pd_cocimiento/core/theme/app_theme.dart';
+import 'package:app_pd_cocimiento/core/shared/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 
 class CustomCardVWidget extends StatelessWidget {

@@ -1,7 +1,7 @@
-import 'package:app_pd_cocimiento/core/theme/app_theme.dart';
-import 'package:app_pd_cocimiento/core/utils/input_formatters/number_input_formatter.dart';
+import 'package:app_pd_cocimiento/core/shared/theme/app_theme.dart';
+import 'package:app_pd_cocimiento/core/shared/utils/input_formatters/number_input_formatter.dart';
 import 'package:flutter/material.dart';
-import 'package:app_pd_cocimiento/core/constants/app_constants.dart';
+import 'package:app_pd_cocimiento/core/shared/constants/app_constants.dart';
 import 'package:app_pd_cocimiento/widgets/custom_item_card_widget.dart';
 
 /// Widget que permite seleccionar el nivel de un tanque.

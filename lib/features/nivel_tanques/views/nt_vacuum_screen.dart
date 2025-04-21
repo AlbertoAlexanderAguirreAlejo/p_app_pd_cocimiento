@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:app_pd_cocimiento/features/nivel_tanques/providers/nivel_tanques_provider.dart';
 import 'package:app_pd_cocimiento/widgets/custom_tank_level_card_widget_slider.dart';
-import 'package:app_pd_cocimiento/core/models/db/con_pd_nivel.dart';
-import 'package:app_pd_cocimiento/core/models/db/recipiente.dart';
+import 'package:app_pd_cocimiento/domain/models/db/con_pd_nivel.dart';
+import 'package:app_pd_cocimiento/domain/models/db/recipiente.dart';
 
 class NTVacuumScreen extends StatelessWidget {
   const NTVacuumScreen({super.key});

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:app_pd_cocimiento/core/constants/app_constants.dart';
-import 'package:app_pd_cocimiento/core/models/db/con_pd_nivel.dart';
-import 'package:app_pd_cocimiento/core/models/db/recipiente.dart';
-import 'package:app_pd_cocimiento/core/models/db/material.dart';
-import 'package:app_pd_cocimiento/data/repositories/con_pd_nivel_repository.dart';
-import 'package:app_pd_cocimiento/data/repositories/recipiente_repository.dart';
-import 'package:app_pd_cocimiento/data/repositories/material_repository.dart';
-import 'package:app_pd_cocimiento/core/preferences/app_preferences.dart';
+import 'package:app_pd_cocimiento/core/shared/constants/app_constants.dart';
+import 'package:app_pd_cocimiento/domain/models/db/con_pd_nivel.dart';
+import 'package:app_pd_cocimiento/domain/models/db/recipiente.dart';
+import 'package:app_pd_cocimiento/domain/models/db/material.dart';
+import 'package:app_pd_cocimiento/domain/repositories/con_pd_nivel_repository.dart';
+import 'package:app_pd_cocimiento/domain/repositories/recipiente_repository.dart';
+import 'package:app_pd_cocimiento/domain/repositories/material_repository.dart';
+import 'package:app_pd_cocimiento/core/infrastructure/preferences/app_preferences.dart';
 
 class NivelTanquesProvider extends ChangeNotifier {
   final ConPdNivelRepository conPdNivelRepository;

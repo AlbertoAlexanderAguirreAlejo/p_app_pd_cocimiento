@@ -1,14 +1,14 @@
-import 'package:app_pd_cocimiento/core/constants/app_constants.dart';
-import 'package:app_pd_cocimiento/core/models/db/actividad.dart';
-import 'package:app_pd_cocimiento/core/models/db/con_pd_det.dart';
-import 'package:app_pd_cocimiento/core/models/db/recipiente.dart';
-import 'package:app_pd_cocimiento/core/models/db/tipo_masa.dart';
-import 'package:app_pd_cocimiento/core/preferences/app_preferences.dart';
-import 'package:app_pd_cocimiento/data/repositories/actividad_repository.dart';
-import 'package:app_pd_cocimiento/data/repositories/con_pd_det_repository.dart';
-import 'package:app_pd_cocimiento/data/repositories/masa_act_rec_repository.dart';
-import 'package:app_pd_cocimiento/data/repositories/recipiente_repository.dart';
-import 'package:app_pd_cocimiento/data/repositories/tipo_masa_repository.dart';
+import 'package:app_pd_cocimiento/core/shared/constants/app_constants.dart';
+import 'package:app_pd_cocimiento/domain/models/db/actividad.dart';
+import 'package:app_pd_cocimiento/domain/models/db/con_pd_det.dart';
+import 'package:app_pd_cocimiento/domain/models/db/recipiente.dart';
+import 'package:app_pd_cocimiento/domain/models/db/tipo_masa.dart';
+import 'package:app_pd_cocimiento/core/infrastructure/preferences/app_preferences.dart';
+import 'package:app_pd_cocimiento/domain/repositories/actividad_repository.dart';
+import 'package:app_pd_cocimiento/domain/repositories/con_pd_det_repository.dart';
+import 'package:app_pd_cocimiento/domain/repositories/masa_act_rec_repository.dart';
+import 'package:app_pd_cocimiento/domain/repositories/recipiente_repository.dart';
+import 'package:app_pd_cocimiento/domain/repositories/tipo_masa_repository.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 

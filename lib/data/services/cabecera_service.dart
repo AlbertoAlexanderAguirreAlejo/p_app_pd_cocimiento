@@ -1,5 +1,5 @@
-import 'package:app_pd_cocimiento/core/models/db/con_pd_cab.dart';
-import 'package:app_pd_cocimiento/data/repositories/con_pd_cab_repository.dart';
+import 'package:app_pd_cocimiento/domain/models/db/con_pd_cab.dart';
+import 'package:app_pd_cocimiento/domain/repositories/con_pd_cab_repository.dart';
 import 'package:intl/intl.dart';
 
 class CabeceraService {

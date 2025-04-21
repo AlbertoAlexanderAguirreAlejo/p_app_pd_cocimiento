@@ -1,8 +1,8 @@
 // side_menu.dart
-import 'package:app_pd_cocimiento/core/preferences/app_preferences.dart';
-import 'package:app_pd_cocimiento/core/theme/app_theme.dart';
-import 'package:app_pd_cocimiento/core/utils/date_formatter.dart';
-import 'package:app_pd_cocimiento/core/utils/message_toast.dart';
+import 'package:app_pd_cocimiento/core/infrastructure/preferences/app_preferences.dart';
+import 'package:app_pd_cocimiento/core/shared/theme/app_theme.dart';
+import 'package:app_pd_cocimiento/core/shared/utils/date_formatter.dart';
+import 'package:app_pd_cocimiento/core/shared/utils/message_toast.dart';
 import 'package:app_pd_cocimiento/data/services/cabecera_service.dart';
 import 'package:flutter/material.dart';
 import 'package:icons_plus/icons_plus.dart';

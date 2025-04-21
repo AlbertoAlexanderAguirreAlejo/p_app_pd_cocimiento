@@ -1,8 +1,8 @@
-import 'package:app_pd_cocimiento/core/models/db/material.dart';
+import 'package:app_pd_cocimiento/domain/models/db/material.dart';
 import 'package:flutter/material.dart';
-import 'package:app_pd_cocimiento/core/theme/app_theme.dart';
-import 'package:app_pd_cocimiento/core/constants/app_constants.dart';
-import 'package:app_pd_cocimiento/core/utils/input_formatters/number_input_formatter.dart';
+import 'package:app_pd_cocimiento/core/shared/theme/app_theme.dart';
+import 'package:app_pd_cocimiento/core/shared/constants/app_constants.dart';
+import 'package:app_pd_cocimiento/core/shared/utils/input_formatters/number_input_formatter.dart';
 import 'package:app_pd_cocimiento/widgets/custom_dropdown_widget.dart';
 
 /// Widget que muestra la cabecera a la izquierda y el contenido a la derecha.

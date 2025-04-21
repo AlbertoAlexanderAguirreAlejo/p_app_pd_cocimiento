@@ -1,18 +1,18 @@
 import 'package:provider/provider.dart';
 import 'package:provider/single_child_widget.dart';
 
-import 'package:app_pd_cocimiento/core/preferences/app_preferences.dart';
+import 'package:app_pd_cocimiento/core/infrastructure/preferences/app_preferences.dart';
 
-import 'package:app_pd_cocimiento/data/repositories/actividad_repository.dart';
-import 'package:app_pd_cocimiento/data/repositories/material_repository.dart';
-import 'package:app_pd_cocimiento/data/repositories/recipiente_repository.dart';
-import 'package:app_pd_cocimiento/data/repositories/masa_act_rec_repository.dart';
-import 'package:app_pd_cocimiento/data/repositories/con_pd_det_repository.dart';
-import 'package:app_pd_cocimiento/data/repositories/tipo_masa_repository.dart';
-import 'package:app_pd_cocimiento/data/repositories/mantenimiento_repository.dart';
-import 'package:app_pd_cocimiento/data/repositories/con_pd_cab_repository.dart';
-import 'package:app_pd_cocimiento/data/repositories/con_pd_agua_repository.dart';
-import 'package:app_pd_cocimiento/data/repositories/con_pd_nivel_repository.dart';
+import 'package:app_pd_cocimiento/domain/repositories/actividad_repository.dart';
+import 'package:app_pd_cocimiento/domain/repositories/material_repository.dart';
+import 'package:app_pd_cocimiento/domain/repositories/recipiente_repository.dart';
+import 'package:app_pd_cocimiento/domain/repositories/masa_act_rec_repository.dart';
+import 'package:app_pd_cocimiento/domain/repositories/con_pd_det_repository.dart';
+import 'package:app_pd_cocimiento/domain/repositories/tipo_masa_repository.dart';
+import 'package:app_pd_cocimiento/domain/repositories/mantenimiento_repository.dart';
+import 'package:app_pd_cocimiento/domain/repositories/con_pd_cab_repository.dart';
+import 'package:app_pd_cocimiento/domain/repositories/con_pd_agua_repository.dart';
+import 'package:app_pd_cocimiento/domain/repositories/con_pd_nivel_repository.dart';
 
 import 'package:app_pd_cocimiento/data/services/auth_service.dart';
 import 'package:app_pd_cocimiento/data/services/cabecera_service.dart';

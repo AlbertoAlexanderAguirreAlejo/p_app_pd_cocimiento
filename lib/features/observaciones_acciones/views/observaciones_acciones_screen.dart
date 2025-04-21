@@ -1,11 +1,9 @@
-// lib/features/observaciones/screens/observaciones_acciones_screen.dart
-
 import 'package:app_pd_cocimiento/features/observaciones_acciones/views/oa_acciones_correctivas_screen.dart';
 import 'package:app_pd_cocimiento/features/observaciones_acciones/views/oa_observaciones_screen.dart';
 import 'package:app_pd_cocimiento/widgets/custom_fab_widget.dart';
 import 'package:flutter/material.dart';
-import 'package:app_pd_cocimiento/core/models/app/vista.dart';
-import 'package:app_pd_cocimiento/core/theme/app_theme.dart';
+import 'package:app_pd_cocimiento/domain/models/app/vista.dart';
+import 'package:app_pd_cocimiento/core/shared/theme/app_theme.dart';
 import 'package:app_pd_cocimiento/widgets/custom_bottom_navigation_bar_widget.dart';
 import 'package:app_pd_cocimiento/widgets/custom_scaffold_widget.dart';
 import 'package:icons_plus/icons_plus.dart';

@@ -1,7 +1,7 @@
-import 'package:app_pd_cocimiento/core/preferences/app_preferences.dart';
+import 'package:app_pd_cocimiento/core/infrastructure/preferences/app_preferences.dart';
 import 'package:flutter/material.dart';
-import 'package:app_pd_cocimiento/data/repositories/con_pd_det_repository.dart';
-import 'package:app_pd_cocimiento/core/models/db/con_pd_det_extended.dart';
+import 'package:app_pd_cocimiento/domain/repositories/con_pd_det_repository.dart';
+import 'package:app_pd_cocimiento/domain/models/db/con_pd_det_extended.dart';
 
 class ActividadesTachosProvider extends ChangeNotifier {
   final ConPdDetRepository conPdDetRepository;

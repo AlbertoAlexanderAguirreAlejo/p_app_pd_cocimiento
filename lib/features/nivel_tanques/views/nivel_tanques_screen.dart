@@ -1,5 +1,5 @@
-import 'package:app_pd_cocimiento/core/models/app/vista.dart';
-import 'package:app_pd_cocimiento/core/theme/app_theme.dart';
+import 'package:app_pd_cocimiento/domain/models/app/vista.dart';
+import 'package:app_pd_cocimiento/core/shared/theme/app_theme.dart';
 import 'package:app_pd_cocimiento/features/nivel_tanques/providers/nivel_tanques_provider.dart';
 import 'package:app_pd_cocimiento/features/nivel_tanques/views/nt_extension_screen.dart';
 import 'package:app_pd_cocimiento/features/nivel_tanques/views/nt_tachos_screen.dart';

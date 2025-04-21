@@ -1,7 +1,7 @@
-import 'package:app_pd_cocimiento/core/constants/db_constants.dart';
-import 'package:app_pd_cocimiento/data/repositories/mantenimiento_repository.dart';
+import 'package:app_pd_cocimiento/core/shared/constants/db_constants.dart';
+import 'package:app_pd_cocimiento/domain/repositories/mantenimiento_repository.dart';
 import 'package:app_pd_cocimiento/data/services/sync_service.dart';
-import 'package:app_pd_cocimiento/core/models/db/mantenimiento.dart';
+import 'package:app_pd_cocimiento/domain/models/db/mantenimiento.dart';
 import 'package:flutter/material.dart';
 
 class MantenimientoProvider extends ChangeNotifier {

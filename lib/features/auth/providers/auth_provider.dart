@@ -1,7 +1,7 @@
-import 'package:app_pd_cocimiento/core/preferences/app_preferences.dart';
-import 'package:app_pd_cocimiento/core/utils/date_formatter.dart';
+import 'package:app_pd_cocimiento/core/infrastructure/preferences/app_preferences.dart';
+import 'package:app_pd_cocimiento/core/shared/utils/date_formatter.dart';
 import 'package:app_pd_cocimiento/data/services/auth_service.dart';
-import 'package:app_pd_cocimiento/core/theme/app_theme.dart';
+import 'package:app_pd_cocimiento/core/shared/theme/app_theme.dart';
 import 'package:app_pd_cocimiento/data/services/cabecera_service.dart';
 import 'package:app_pd_cocimiento/data/services/ora_service.dart';
 import 'package:app_pd_cocimiento/data/services/sync_service.dart';

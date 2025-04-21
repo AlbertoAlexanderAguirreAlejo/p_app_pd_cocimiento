@@ -1,5 +1,5 @@
-import 'package:app_pd_cocimiento/core/theme/app_theme.dart';
-import 'package:app_pd_cocimiento/core/utils/date_formatter.dart';
+import 'package:app_pd_cocimiento/core/shared/theme/app_theme.dart';
+import 'package:app_pd_cocimiento/core/shared/utils/date_formatter.dart';
 import 'package:app_pd_cocimiento/features/actividades_tachos/widgets/at_item_widget.dart';
 import 'package:app_pd_cocimiento/features/actividades_tachos/widgets/at_filtros_modal_widget.dart';
 import 'package:app_pd_cocimiento/features/actividades_tachos/widgets/at_filter_chips_widget.dart';
